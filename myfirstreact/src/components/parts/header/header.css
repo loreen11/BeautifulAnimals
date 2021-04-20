@@ -1,0 +1,39 @@
+
+#header{
+  height:100px;
+}
+ul a{
+  border-color: #73264d;
+  color: #73264d;
+  font-family: "Lucida Handwriting", Helvetica, Cursive;
+}
+h1{
+  /* background-color: #df9fbf; */
+  color: #d279a6;
+}
+/* h2{
+  font-family: "Brush Script MT", Helvetica, Cursive;
+  color: #cc6666;
+} */
+/* h3{
+  border-color: #cc6666;
+  background-color:
+  border: 3px solid #8a4266;
+  border-radius: 7px;
+  background-color: #df9fbf;
+} */
+.card{
+  /* background: #804d66; */
+  color: white;
+}
+.form-group{
+  width: 400px;
+}
+.header{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 100px;
+  /* margin-top: 0px;
+  background-color: #cc6699; */
+}
