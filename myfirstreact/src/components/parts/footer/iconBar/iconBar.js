@@ -2,7 +2,6 @@ import react, { Component } from 'react';
 import { IconItems } from "./iconItems";
 
 
-
 class IconBar extends Component {
   state = {clicked: false }
   render() {

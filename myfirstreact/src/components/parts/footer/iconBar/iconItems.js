@@ -1,24 +1,18 @@
-import { IconName } from "react-icons/fa";
-import { FaYoutube } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import IconJson from './IconJson.js';
+import IconItem from './iconitem.js';
 
-export const IconItems = [
-  {
-    icon: <FaInstagram />,
-    a: <a href="https://www.instagram.com/"></a>,
-    cName: 'Nav-icon'
-  },
-  {
-    icon: <FaFacebook />,
-    a: <a href="https://he-il.facebook.com/"></a>,
-    cName: 'Nav-icon'
-  },
-  {
-    icon: <FaYoutube />,
-    a: <a href="fab fa-youtube"></a>,
-    cName: 'Nav-icon'
+
+class IconItems extends React.Component {
+  render() {
+    const IconItems = IconJson.map((jsonpart) =>(
+      <IconItem item={jsonpart} />
+    ));
+    return(
+      <ul className="navbar-nav text-center">{IconItems}</ul>
+    );
   }
-]
+}
 
-export default IconItems
+export default IconItems;

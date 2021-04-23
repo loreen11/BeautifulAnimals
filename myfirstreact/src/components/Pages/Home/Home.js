@@ -1,6 +1,6 @@
-import Header from "./parts/header/header.js";
-import Content from "./parts/Content/content.js";
-import Footer from "./parts/footer/footer.js";
+import Header from "../../parts/header/header.js";
+import Content from "../../parts/Content/Content.js";
+import Footer from "../../parts/footer/footer.js";
 import React, { Component } from 'react';
 
 

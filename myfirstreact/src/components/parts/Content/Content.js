@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./content.css";
+import "./Content.css";
 import SimpleCarousel from 'simple-react-carousel';
 
 

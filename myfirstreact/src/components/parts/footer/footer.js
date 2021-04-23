@@ -1,18 +1,14 @@
 import React from "react";
-import { FaBeer } from 'react-icons/fa';
-import IconBar from "./iconBar/iconBar.js";
-import './footer.css'
+import './footer.css';
+import Content from './content.js';
 
-const Footer = () => (
-  <div className="Footer mt-5">
-    <IconBar />
-    <p>Phone Number: 050-778-9435
-                     054-876-7336
-                     04-655-1111  </p>
-    <p>Email: animals112@gmail.com
-              dogs100@hotmail.com</p>
-  </div>
-);
+class Footer extends React.Component{
+  render() {
+    return (
+      <Content />
+    );
+  }
+}
 
 
 export default Footer;
