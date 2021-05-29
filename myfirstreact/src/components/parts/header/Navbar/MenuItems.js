@@ -1,47 +1,50 @@
 export const MenuItems = [
   {
-    title: 'LogIn',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'בית',
+    "url": '/',
+    "cName": 'nav-item active',
+    "cLink": "nav-link"
   },
   {
-    title: 'LogIn',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'מדוע כדאי לאמץ ?',
+    "url": '/Why-you-should-adopt',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Contact-Us',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'בעלי חיים לאימוץ',
+    "url": '/Animals-for-adoption',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Guidance-For-Adoption',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'הדרכה לאימוץ',
+    "url": '/Guidance-For-Adoption',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Consulting',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'ציוד מומלץ',
+    "url": '/Animals-Equipment',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Animals-Equipment',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'שירותים',
+    "url": '/Services',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Cats-For-Adoption',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'התחברות',
+    "url": '/Log-in',
+    "cName": 'nav-item',
+    "cLink": "nav-link"
   },
   {
-    title: 'Dogs-For-Adoption',
-    url: '#',
-    cName: 'Nav-links'
-  },
-  {
-    title: 'HOME',
-    url: '#',
-    cName: 'Nav-links'
+    "title": 'צור קשר',
+    "url": '/Contact-Us',
+    "cName": 'nav-item',
+     "cLink": "nav-link"
   }
 ]

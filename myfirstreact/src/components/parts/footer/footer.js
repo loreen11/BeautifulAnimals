@@ -1,11 +1,21 @@
 import React from "react";
 import './footer.css';
-import Content from './content.js';
+import  IconJson from './iconBar/IconJson.js';
+import Content from './iconBar/content.js';
+
 
 class Footer extends React.Component{
   render() {
+
     return (
-      <Content />
+        <div className="footer">
+         <div>
+
+         <h1> lorin <span> {'\u00A9'} </span> </h1>
+
+         </div>
+         <Content />
+        </div>
     );
   }
 }

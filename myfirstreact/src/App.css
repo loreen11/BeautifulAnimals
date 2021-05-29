@@ -1,5 +1,12 @@
 body{
-  background-color: #ffccff;
+  direction: rtl;
+  background-image: url(./background-img/imageedit7.gif);
+  background-size:cover;
+}
+h1{
+  font-family: "Brush Script MT", Helvetica, Cursive;
+  margin:auto;
+  color: #943866;
 }
 .App {
   text-align: center;

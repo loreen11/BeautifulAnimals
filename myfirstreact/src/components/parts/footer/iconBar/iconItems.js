@@ -5,6 +5,7 @@ import IconItem from './iconitem.js';
 
 
 class IconItems extends React.Component {
+
   render() {
     const IconItems = IconJson.map((jsonpart) =>(
       <IconItem item={jsonpart} />

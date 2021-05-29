@@ -1,39 +1,40 @@
-
 #header{
-  height:100px;
+
+  margin-top: -6px;
+
 }
-ul a{
-  border-color: #73264d;
-  color: #73264d;
-  font-family: "Lucida Handwriting", Helvetica, Cursive;
+.mynav li{
+    width: 200px;
+
+    font-size: 30px;
+
 }
-h1{
-  /* background-color: #df9fbf; */
-  color: #d279a6;
+.mynav li:not(:last-child){
+  margin-left: 16px;
 }
-/* h2{
-  font-family: "Brush Script MT", Helvetica, Cursive;
-  color: #cc6666;
-} */
-/* h3{
-  border-color: #cc6666;
-  background-color:
-  border: 3px solid #8a4266;
-  border-radius: 7px;
-  background-color: #df9fbf;
-} */
-.card{
-  /* background: #804d66; */
-  color: white;
+.navbar form-inline{
+  margin-left: 10px;
 }
-.form-group{
-  width: 400px;
+.img-fluid{
+  width:2000px;
+  height:400px;
+  margin-top: 30px;
+  position:relative;
+  border-radius: 30px;
 }
-.header{
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 100px;
-  /* margin-top: 0px;
-  background-color: #cc6699; */
+.form-inline{
+  position:absolute;
+  top:47%;
+  left:248px;
+  font-size: 40px;
+  color:green;
+
+  background:#fff;
+  opacity: 0.7;
+  align: center;
+}
+#demo{
+  height: 40%;
+  width: 70%;
+  left: -160px;
 }

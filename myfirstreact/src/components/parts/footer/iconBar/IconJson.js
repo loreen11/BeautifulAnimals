@@ -9,7 +9,19 @@ const IconJson = [
   },
   {
     icon:"fa fa-whatsapp",
-    link:"#"
+    link:"www.whatsapp.com"
+  },
+  {
+    icon:"fa fa-twitter",
+    link:"twitter.com"
+  },
+  {
+    icon:"fab fa-youtube",
+    link:"youtube.com"
+  },
+  {
+    icon:"fab fa-viber",
+    link:"viber.com"
   }
 ];
 
