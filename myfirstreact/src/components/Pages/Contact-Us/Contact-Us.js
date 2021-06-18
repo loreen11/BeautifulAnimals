@@ -19,15 +19,15 @@ class Home extends React.Component {
   render() {
     if (this.state.data.length===0)
         return (<p>ops</p>);
-    return(
+      return(
       <div id="Home">
-        <Header data = {this.state.data.Header.Navbar}/>
-        <ContentHome data = {this.state.data.Content.Card}/>
-        <Footer data = {this.state.data.Footer.Footer}/>
+        <Header data ={this.state.data.Header.Navbar}/>
+        <ContentHome data = {this.state.data.Content} />
+        <Footer />
       </div>
       )
   }
 }
 
 
-export default Home;
+export default Home

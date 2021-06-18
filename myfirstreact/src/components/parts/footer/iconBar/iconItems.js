@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IconJson from './IconJson.js';
-import IconItem from './iconitem.js';
+import IconJson from './IconJson';
+import IconItem from './iconItem';
 
 
 class IconItems extends React.Component {

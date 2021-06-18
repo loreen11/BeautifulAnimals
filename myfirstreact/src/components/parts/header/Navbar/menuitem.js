@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
+import "./menuitem.css";
 
 class MenuItem extends React.Component {
   constructor(props){
@@ -10,9 +10,8 @@ class MenuItem extends React.Component {
   render() {
     return (
         <li className="nav-item item">
-          <a className="nav-link" href={this.props.item.url}>{this.props.item.title}<i className={this.props.item.icon}></i></a>
+          <a className="nav-link loreen" href={this.props.item.url}>{this.props.item.title}<i className={this.props.item.icon}></i></a>
         </li>
-
     );
   }
 }
