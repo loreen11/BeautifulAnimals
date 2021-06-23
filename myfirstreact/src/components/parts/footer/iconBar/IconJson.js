@@ -1,27 +1,27 @@
 const IconJson = [
   {
-    icon:"fa fa-instagram",
-    link:"www.instagram.com"
-  },
-  {
-    icon:"fa fa-facebook",
-    link:"www.facebook.com"
-  },
-  {
-    icon:"fa fa-whatsapp",
-    link:"www.whatsapp.com"
-  },
-  {
-    icon:"fa fa-twitter",
-    link:"twitter.com"
-  },
-  {
     icon:"fab fa-youtube",
-    link:"youtube.com"
+    link:"http://www.youtube.com"
   },
   {
     icon:"fab fa-viber",
-    link:"viber.com"
+    link:"http://www.viber.com"
+  },
+  {
+    icon:"fab fa-instagram",
+    link:"http://www.instagram.com"
+  },
+  {
+    icon:"fab fa-facebook",
+    link:"http://www.facebook.com"
+  },
+  {
+    icon:"fab fa-whatsapp",
+    link:"http://www.whatsapp.com"
+  },
+  {
+    icon:"fab fa-twitter",
+    link:"http://www.twitter.com"
   }
 ];
 

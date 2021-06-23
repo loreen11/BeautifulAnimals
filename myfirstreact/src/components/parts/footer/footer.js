@@ -9,12 +9,8 @@ class Footer extends React.Component{
 
     return (
         <div className="footer">
-         <div>
-
          <h1> lorin <span> {'\u00A9'} </span> </h1>
-
-         </div>
-         <Content />
+         <Content/>
         </div>
     );
   }

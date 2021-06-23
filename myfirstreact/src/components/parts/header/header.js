@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-import NavBar from "./Navbar/Navbar.js";
+import NavBar from "./Navbar/navbar.js";
 import "./header.css"
 
 class Header extends Component {
@@ -8,15 +7,8 @@ class Header extends Component {
     super(props)
   }
   render() {
-    
     return (
-      <div>
         <NavBar data={this.props.data}/>
-
-
-      </div>
-
-
     );
   }
 }

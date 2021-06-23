@@ -1,7 +1,5 @@
 import react, { Component } from 'react';
 import { IconItems } from "./iconItems";
-// import {NavbarItems} from "menuitem.js";
-
 
 class IconBar extends Component {
   state = {clicked: false }
@@ -19,7 +17,6 @@ class IconBar extends Component {
               </li>
             )
           })}
-
         </ul>
       </nav>
     )

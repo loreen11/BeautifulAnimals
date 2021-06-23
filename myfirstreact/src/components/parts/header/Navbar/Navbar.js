@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems.js";
-
-import "./Navbar.css";
-
-
+import "./navbar.css";
 
 class NavBar extends Component{
   constructor(props){
@@ -14,16 +11,23 @@ class NavBar extends Component{
       if (!this.props.data){
       return ("oops")
       };
-
+      const mystyle = {
+        color: "black",
+        border: "1px solid black",
+        fontSize: "10px",
+        textAlign: "center",
+        height: "60px"
+      };
       const items=this.props.data.map((singleItem)=>
-        <li className={singleItem.cName} >
-           <a className={singleItem.cLink} href={singleItem.url}>
+        <li className={singleItem.cName}>
+          <a className={`menu-style ${singleItem.cLink}`} href={singleItem.url}>
+              <i class={singleItem.icon}></i> &nbsp;
               {singleItem.title}
            </a>
         </li>
-      );
+      )
       return(
-        <nav className="navbar navbar-expand-sm bg-light navbar-light">
+        <nav className="p-xl navbar navbar-expand-sm bg-light navbar-light">
           <ul className="mynav navbar-nav col-8">
             {items}
           </ul>

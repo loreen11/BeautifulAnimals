@@ -1,33 +1,33 @@
 import React from 'react';
-import Header from "../../parts/header/header";
-import ContentHome from "./content-home/content-home";
-import Footer from "../../parts/footer/footer";
+import ReactDOM from 'react-dom';
+import Header from '../../parts/header/header.js';
+import Content from './Content/content.js';
 
-
-
-class Home extends React.Component {
+class Contact extends React.Component{
   constructor() {
     super();
-    this.state = { data: [] };
+    this.state = { data: null };
   }
 
   componentDidMount() {
-    fetch('/home')
+    fetch('/contact')
       .then(res => res.json())
       .then(json => this.setState({ data: json }));
   }
-  render() {
-    if (this.state.data.length===0)
-        return (<p>ops</p>);
-      return(
-      <div id="Home">
-        <Header data ={this.state.data.Header.Navbar}/>
-        <ContentHome data = {this.state.data.Content} />
-        <Footer />
+  render(){
+
+    if(!this.state.data){
+      return <div>loading...</div>
+    }
+    return(
+      <div id="contactus">
+        <Header data = {this.state.data.Header.Navbar} />
+        <Content content={this.state.data.Content} />
       </div>
-      )
+    )
   }
+
+
+
 }
-
-
-export default Home
+export default Contact

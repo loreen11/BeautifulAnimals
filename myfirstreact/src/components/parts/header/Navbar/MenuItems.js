@@ -2,8 +2,8 @@ export const MenuItems = [
   {
     "title": 'בית',
     "url": '/',
-    "cName": 'nav-item active',
-    "cLink": "nav-link"
+    "icon": "fas fa-home",
+    "link": "https://fontawesome.com/"
   },
   {
     "title": 'מדוע כדאי לאמץ ?',
@@ -43,7 +43,7 @@ export const MenuItems = [
   },
   {
     "title": 'צור קשר',
-    "url": '/Contact-Us',
+    "url": '/ContactUs',
     "cName": 'nav-item',
      "cLink": "nav-link"
   }
