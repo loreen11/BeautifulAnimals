@@ -14,6 +14,7 @@ let Card =async ()=>{
 }
 //'{"Carousel":'+JSON.stringify(await Carousel())+',
 let Content =async ()=>{
+  console.log(JSON.parse('{"Card":'+JSON.stringify(await Card())+'}'));
   return JSON.parse('{"Card":'+JSON.stringify(await Card())+'}');
 }
 
